@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "backgroundDelayMs": 2000,
+    "backgroundFadeMs": 1200,
+    "trailerDelayMs": 0,
+    "trailerFadeMs": 600,
+    "backgroundVolume": 0,
+    "trailerVolume": 0
+  },
+  "games": [
+    { "id": "hl2",    "name": "Half Life 2",              "steamAppId": 220 },
+    { "id": "hl2-1",  "name": "Half Life 2: Episode One", "steamAppId": 380 },
+    { "id": "hl2-2",  "name": "Half Life 2: Episode Two", "steamAppId": 420 },
+    { "id": "portal", "name": "Portal",                   "steamAppId": 400 },
+    { "id": "tf2",    "name": "Team Fortress 2",          "steamAppId": 440 }
+  ]
+}

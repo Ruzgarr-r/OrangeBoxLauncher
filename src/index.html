@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OrangeBox Launcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Full-window background video of the selected game -->
+  <video id="bg" muted loop playsinline></video>
+  <!-- Black layer: fades in to hide the old background, fades out to reveal the new one -->
+  <div id="dim" class="on"></div>
+
+  <main id="ui">
+    <img id="logo" src="../assets/logo.png" alt="OrangeBox Launcher">
+    <h1 id="select-label">SELECT GAME:</h1>
+    <div id="cards" role="listbox" aria-label="Games"></div>
+  </main>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
